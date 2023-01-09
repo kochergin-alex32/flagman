@@ -1,0 +1,111 @@
+header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(white 0%, white 63%, #26aae1 63%, #26aae1 100%);
+}
+
+.header {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-top a {
+  height: 92px;
+}
+.header-top a img {
+  width: 250px;
+}
+.header-top h1 {
+  margin: 8px;
+  padding: 0;
+  width: 300px;
+  text-align: center;
+}
+.header-top .input {
+  border: 2px solid rgb(243, 111, 3);
+  color: rgb(243, 111, 3);
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+.header-top .input:hover {
+  background-color: rgb(243, 111, 3);
+  color: white;
+}
+.header-top .back-coll {
+  color: #26aae1;
+  width: 300px;
+  height: 92px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.header-top .back-coll:hover {
+  color: #0f96cf;
+}
+
+.head-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.head-bottom .info {
+  width: 860px;
+  display: flex;
+  justify-content: space-between;
+}
+.head-bottom .info a {
+  color: white;
+  font-size: 20px;
+  height: 60px;
+  padding: 0 17px;
+  line-height: 60px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.head-bottom .info a:hover {
+  background-color: rgb(243, 111, 3);
+}
+.head-bottom .socials-icon {
+  box-sizing: border-box;
+  margin-right: 30px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-bottom .socials-icon a {
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.head-bottom .socials-icon a:first-child {
+  color: rgb(7, 187, 7);
+}
+.head-bottom .socials-icon a:nth-child(3) {
+  color: red;
+}
+.head-bottom .socials-icon a:last-child {
+  color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */

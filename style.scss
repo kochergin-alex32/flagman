@@ -1,0 +1,119 @@
+header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( white 0%,  white 63%, #26aae1 63%, #26aae1 100%);
+}
+.header{
+    // border: 1px solid green;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.header-top{
+    // border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+a{
+    // border: 1px solid red;
+    height: 92px;
+    img{
+        width: 250px;
+    }
+}
+h1{
+    // border: 1px solid yellow;
+    margin: 8px;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+}
+.input{
+    border: 2px solid rgb(243, 111, 3);
+    color: rgb(243, 111, 3);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    &:hover{
+        background-color: rgb(243, 111, 3);
+        color: white;
+    }
+}
+.back-coll{
+    // border: 1px solid yellow;
+    color: #26aae1;
+    width: 300px;
+    height: 92px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold ;
+    text-decoration: underline;
+    &:hover{
+        color: #0f96cf;
+    }
+}
+}
+.head-bottom{
+    // border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+
+    .info{
+        //  border: 1px dotted green;
+        width: 860px;
+        display: flex;
+        justify-content: space-between;
+         a{
+        // border: 1px solid yellow;
+        color: white;
+        font-size: 20px;
+        height: 60px;
+        padding: 0 17px;
+        line-height: 60px;
+        text-decoration: none;
+        box-sizing: border-box;
+        &:hover{
+           background-color:rgb(243, 111, 3);
+        }
+        
+            }
+    } 
+    .socials-icon{
+        // border: 1px solid black;
+        box-sizing: border-box;
+        margin-right: 30px;
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            // border: 1px solid green;
+            box-sizing: border-box;
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            &:first-child{
+                color: rgb(7, 187, 7);
+            }
+            &:nth-child(3){
+                color: red;
+            }
+            &:last-child{
+                color: orangered;
+            }
+        }
+    }  
+}
