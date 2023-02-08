@@ -108,4 +108,96 @@ header {
   color: orangered;
 }
 
+section>*{
+  border: 1px solid red;
+}
+section{
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end;
+  justify-items: end;
+  align-items: flex-end; */
+ 
+}
+.section{
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+}
+.section h1{
+  letter-spacing: 3px;
+  word-spacing: 7px;
+  
+}
+.section hr{
+  opacity: 0.1;
+}
+.section ul li{
+  letter-spacing: 1px;
+}
+.section p{
+  letter-spacing: 1px;
+}
+.section a{
+  text-decoration: none;
+  color: #0f96cf;
+}
+.form>*{
+  /* border: 1px solid greenyellow; */
+
+}
+.form{
+  margin-top: 20px;
+  border-top: 5px solid rgba(165, 42, 42, 0.5);
+  border-bottom: 5px solid rgba(165, 42, 42, 0.5);
+background-color:  rgb(243, 111, 3) ;
+padding-top: 20px;
+}
+.form div{
+  display: flex;
+  justify-content: center;
+}
+.form :first-child h2{
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.form :first-child h2 a{
+  color: #47585f;
+  font-weight:600;
+  transition: 00.5s;
+}
+.form :first-child h2 a:hover{
+  color: white;
+}
+.form :nth-child(2) h3{
+  color: white;
+  letter-spacing: 2px;
+
+}
+.form :nth-child(3) a{
+  color: white;
+  padding: 0 15px;
+  border: 2px solid white;
+  letter-spacing: 2px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 25px;
+  transition: 0.5s;
+}
+.form :nth-child(3) a:hover{
+  background-color: white;
+  color: rgb(243, 111, 3) ;
+}
+.form .calc{
+  color: #47585f ;
+  transition: 0.5s;
+}
+.form .calc:hover{
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
