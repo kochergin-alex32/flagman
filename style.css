@@ -254,10 +254,15 @@ footer{
  justify-content: left;
    
   }
+  header{
+    
+   
+    width: 480px;
+  }
   .header{
     
    
-    width: 550px;
+    width: 480px;
   }
   .header-top{
     flex-wrap: wrap;
@@ -266,8 +271,21 @@ footer{
    
   }
   .header-top a img {
-    width: 200px;
+    width: 150px;
   }
+
+  .header-top .input {
+    border: 2px solid rgb(243, 111, 3);
+    color: rgb(243, 111, 3);
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+
 
   .head-bottom {
   height: 150px;
@@ -277,9 +295,9 @@ footer{
   
   .head-bottom .info a {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     height: 50px;
-    padding: 20px 10px;
+    padding: 20px 5px;
     line-height: 20px;
     text-decoration: none;
     box-sizing: border-box;
@@ -302,20 +320,22 @@ footer{
 
     .section{
     margin: 0 auto;
-    width: 500px !important; 
+    width: 450px !important; 
    
   }
   .form :first-child h2{
+    font-size: 20px;
     letter-spacing: 0px;
+    margin: 0 auto;
   }
   footer{ 
     padding-left: 0;
-    width: 555px;
+    width: 480px;
     margin: 0 auto;
   }
   .footer{
     margin: 0 auto;
-    width: 576px;
+    width: 480px;
   
    }
 }
