@@ -305,7 +305,7 @@ footer{
   
   .head-bottom .info a {
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
    
     color: white;
     font-size: 12px;
