@@ -246,7 +246,7 @@ footer{
   align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 478px) {
   
   body{ 
     display: flex;
@@ -292,25 +292,39 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .head-bottom .info {
+  display: flex;
+  justify-content: start;
+  gap: 18px;
+  padding-left: -20px;
+  }
+  .head-bottom .info:first-child{
+    margin-left: -0px;
+  }
   
   .head-bottom .info a {
+
+    border: 1px solid red;
+   
     color: white;
     font-size: 12px;
     height: 50px;
-    padding: 20px 5px;
+    padding: 20px 3px;
     line-height: 20px;
     text-decoration: none;
     box-sizing: border-box;
+    width: 50px;
   }
 
 
   .head-bottom .socials-icon {
     /* border:   1px solid red; */
   
-    margin-right: 0;
+    margin-right: ;
     width: 600px;
-  
-    justify-content: space-evenly;
+  gap: 30px;
+    justify-content: start;
  
   }
   
