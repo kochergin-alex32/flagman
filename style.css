@@ -246,7 +246,7 @@ footer{
   align-items: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 485px) {
   
   body{ 
     display: flex;
@@ -338,6 +338,23 @@ footer{
     width: 480px;
   
    }
+}
+
+@media screen and (max-width: 765px){
+
+ header{
+  border: 1px solid red;
+  justify-content: end;
+  margin-right: -500px;
+ }
+.footer{
+  border: 1px solid red;
+  background-color: #47585f ;
+}
+footer{ 
+  border: 1px solid red;
+  width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
