@@ -246,7 +246,7 @@ footer{
   align-items: center;
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 480px) {
   
   body{ 
     display: flex;
@@ -340,19 +340,35 @@ footer{
    }
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 780px){
 
  header{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: end;
-  margin-right: -500px;
+  margin-right: -420px;
  }
+ .header-top{
+  margin-left: -30px;
+  justify-content: center;
+ }
+ .head-bottom{
+  width: 760px;
+  justify-content: space-between;
+  
+ }
+ .head-bottom .info{
+  margin-left: 30px;
+ }
+ section{
+  padding-right: 50px;
+ 
+}
 .footer{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #47585f ;
 }
 footer{ 
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   }
 }
